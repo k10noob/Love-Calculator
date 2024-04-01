@@ -12,7 +12,7 @@ import random
 for _ in range(1):
     random_percentage = random.randint(10, 99)
     if(random_percentage<60):
-        print("Oops You have tp work on your Relationship! ")
+        print("Oops You have to work on your Relationship! ")
     elif(random_percentage>60):
         print("Not bad but you should put more effort into it !")
     elif(random_percentage>80):
